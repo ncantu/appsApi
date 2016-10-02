@@ -1,0 +1,95 @@
+{
+    "contentType": "Content-type:application\/json;charset=utf-8",
+    "resultStr": [
+        "AUDI A4 Allroad Quattro (8KH) A4 2.0 TDi 16V FAP 170 cv"
+    ],
+    "resultState": true,
+    "resultCode": 1200,
+    "resultMsg": "AUDI A4 Allroad Quattro (8KH) A4 2.0 TDi 16V FAP 170 cv",
+    "plaque": "AD223FH",
+    "log": [
+        "AD223FH",
+        "frenchLicencePlate=AD223FH&genartId=&",
+        "{\"Succeded\":true,\"Message\":\"\",\"urls\":{\"31729_824\":\"https:\/\/www.oscaro.com\/audi-a4-allroad-quattro-8kh-2-0tdi-dpf-170-cv-31729-824-t\"},\"idPolTypesDictionnary\":{\"31729_824\":\"137184\"},\"types\":[{\"Disabled\":false,\"Group\":null,\"Selected\":false,\"Text\":\"AUDI A4 Allroad Quattro (8KH) A4 2.0 TDi 16V FAP 170 cv\",\"Value\":\"31729_824\"}]}",
+        {
+            "Succeded": true,
+            "Message": "",
+            "urls": {
+                "31729_824": "https:\/\/www.oscaro.com\/audi-a4-allroad-quattro-8kh-2-0tdi-dpf-170-cv-31729-824-t"
+            },
+            "idPolTypesDictionnary": {
+                "31729_824": "137184"
+            },
+            "types": [
+                {
+                    "Disabled": false,
+                    "Group": null,
+                    "Selected": false,
+                    "Text": "AUDI A4 Allroad Quattro (8KH) A4 2.0 TDi 16V FAP 170 cv",
+                    "Value": "31729_824"
+                }
+            ]
+        },
+        [
+            {
+                "Disabled": false,
+                "Group": null,
+                "Selected": false,
+                "Text": "AUDI A4 Allroad Quattro (8KH) A4 2.0 TDi 16V FAP 170 cv",
+                "Value": "31729_824"
+            }
+        ],
+        {
+            "service": "idGetValidation",
+            "msg": "",
+            "state": true,
+            "code": 1200
+        }
+    ],
+    "cacheFile": "..\/..\/cache\/AD223FH.json",
+    "cacheDir": "..\/..\/cache\/",
+    "confDir": "..\/conf\/",
+    "cacheState": true,
+    "codeList": [
+        {
+            "service": "idGetValidation",
+            "msg": "",
+            "state": true,
+            "code": 1200
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "No car matching",
+            "state": 1400
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "Error input",
+            "state": 1500
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "No data input",
+            "state": 1502
+        },
+        {
+            "service": "imageGetText",
+            "msg": "Looks good!",
+            "state": 2200
+        },
+        {
+            "service": "imageGetText",
+            "msg": "Looks bad!",
+            "state": 2400
+        },
+        {
+            "service": "Nothing to read",
+            "msg": "Looks bad!",
+            "state": 2500
+        }
+    ],
+    "stateUpdateList": {
+        "1": "resultStateOn",
+        "0": "resultStateOff"
+    }
+}

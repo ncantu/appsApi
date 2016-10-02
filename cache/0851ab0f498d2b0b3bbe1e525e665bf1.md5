@@ -1,0 +1,195 @@
+{
+    "contentType": "Content-type:application\/json;charset=utf-8",
+    "resultStr": [
+        "AD223FH Looks good !",
+        "Nothing to scrap!"
+    ],
+    "resultState": false,
+    "resultCode": 2401,
+    "resultDocUrlList": [],
+    "resultMsg": "Nothing to scrap!",
+    "plaque": "AD223FH",
+    "log": [
+        "",
+        "{\n  \"responses\": [\n    {\n      \"textAnnotations\": [\n        {\n          \"locale\": \"en\",\n          \"description\": \"AD-223-FH\\n\",\n          \"boundingPoly\": {\n            \"vertices\": [\n              {\n                \"x\": 25,\n                \"y\": 31\n              },\n              {\n                \"x\": 175,\n                \"y\": 31\n              },\n              {\n                \"x\": 175,\n                \"y\": 66\n              },\n              {\n                \"x\": 25,\n                \"y\": 66\n              }\n            ]\n          }\n        },\n        {\n          \"description\": \"AD-223-FH\",\n          \"boundingPoly\": {\n            \"vertices\": [\n              {\n                \"x\": 25,\n                \"y\": 31\n              },\n              {\n                \"x\": 175,\n                \"y\": 31\n              },\n              {\n                \"x\": 175,\n                \"y\": 66\n              },\n              {\n                \"x\": 25,\n                \"y\": 66\n              }\n            ]\n          }\n        }\n      ]\n    }\n  ]\n}\n",
+        {
+            "responses": [
+                {
+                    "textAnnotations": [
+                        {
+                            "locale": "en",
+                            "description": "AD223FH",
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 25,
+                                        "y": 31
+                                    },
+                                    {
+                                        "x": 175,
+                                        "y": 31
+                                    },
+                                    {
+                                        "x": 175,
+                                        "y": 66
+                                    },
+                                    {
+                                        "x": 25,
+                                        "y": 66
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "description": "AD-223-FH",
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 25,
+                                        "y": 31
+                                    },
+                                    {
+                                        "x": 175,
+                                        "y": 31
+                                    },
+                                    {
+                                        "x": 175,
+                                        "y": 66
+                                    },
+                                    {
+                                        "x": 25,
+                                        "y": 66
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        [
+            {
+                "textAnnotations": [
+                    {
+                        "locale": "en",
+                        "description": "AD223FH",
+                        "boundingPoly": {
+                            "vertices": [
+                                {
+                                    "x": 25,
+                                    "y": 31
+                                },
+                                {
+                                    "x": 175,
+                                    "y": 31
+                                },
+                                {
+                                    "x": 175,
+                                    "y": 66
+                                },
+                                {
+                                    "x": 25,
+                                    "y": 66
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "description": "AD-223-FH",
+                        "boundingPoly": {
+                            "vertices": [
+                                {
+                                    "x": 25,
+                                    "y": 31
+                                },
+                                {
+                                    "x": 175,
+                                    "y": 31
+                                },
+                                {
+                                    "x": 175,
+                                    "y": 66
+                                },
+                                {
+                                    "x": 25,
+                                    "y": 66
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "AD-223-FH\n",
+        "AD223FH",
+        "\/.*([A-Z]{2}[0-9]{3}[A-Z]{2}).*\/",
+        1,
+        "AD223FH",
+        {
+            "service": "imageGetText",
+            "msg": "Looks good!",
+            "state": true,
+            "code": 2200
+        },
+        {
+            "service": "imageGetText",
+            "msg": "Nothing to scrap!",
+            "state": false,
+            "code": 2401
+        }
+    ],
+    "cacheDir": "..\/..\/cache\/",
+    "confDir": "..\/conf\/",
+    "cacheState": true,
+    "codeList": [
+        {
+            "service": "idGetValidation",
+            "msg": "",
+            "state": true,
+            "code": 1200
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "No car matching",
+            "state": false,
+            "code": 1400
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "Error input",
+            "state": false,
+            "code": 1500
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "No data input",
+            "state": false,
+            "code": 1502
+        },
+        {
+            "service": "imageGetText",
+            "msg": "Looks good!",
+            "state": true,
+            "code": 2200
+        },
+        {
+            "service": "imageGetText",
+            "msg": "Looks bad!",
+            "state": false,
+            "code": 2402
+        },
+        {
+            "service": "imageGetText",
+            "msg": "Nothing to scrap!",
+            "state": false,
+            "code": 2401
+        },
+        {
+            "service": "Nothing to read",
+            "msg": "Looks bad!",
+            "state": false,
+            "code": 2500
+        }
+    ],
+    "cacheFile": "..\/..\/cache\/0851ab0f498d2b0b3bbe1e525e665bf1.md5"
+}

@@ -1,0 +1,56 @@
+{
+    "contentType": "Content-type:application\/json;charset=utf-8",
+    "resultStr": [],
+    "resultState": null,
+    "resultCode": null,
+    "resultDocUrlList": [],
+    "resultMsg": null,
+    "plaque": null,
+    "log": [],
+    "cacheDir": "..\/..\/cache\/",
+    "confDir": "..\/conf\/",
+    "cacheState": true,
+    "codeList": [
+        {
+            "service": "idGetValidation",
+            "msg": "",
+            "state": true,
+            "code": 1200
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "No car matching",
+            "state": 1400
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "Error input",
+            "state": 1500
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "No data input",
+            "state": 1502
+        },
+        {
+            "service": "imageGetText",
+            "msg": "Looks good!",
+            "state": 2200
+        },
+        {
+            "service": "imageGetText",
+            "msg": "Looks bad!",
+            "state": 2400
+        },
+        {
+            "service": "Nothing to read",
+            "msg": "Looks bad!",
+            "state": 2500
+        }
+    ],
+    "stateUpdateList": {
+        "1": "resultStateOn",
+        "0": "resultStateOff"
+    },
+    "cacheFile": "..\/..\/cache\/empty.json"
+}

@@ -1,0 +1,173 @@
+{
+    "contentType": "Content-type:application\/json;charset=utf-8",
+    "resultStr": [],
+    "resultState": null,
+    "resultCode": null,
+    "resultDocUrlList": [
+        "https:\/\/appsApi.instriit.com\/cache\/05a455f35da018203a7fb6327fd8b1cf.png"
+    ],
+    "resultMsg": null,
+    "plaque": null,
+    "log": [
+        "",
+        "{\n  \"responses\": [\n    {\n      \"textAnnotations\": [\n        {\n          \"locale\": \"en\",\n          \"description\": \"AD-2\\n\",\n          \"boundingPoly\": {\n            \"vertices\": [\n              {\n                \"x\": 57,\n                \"y\": 73\n              },\n              {\n                \"x\": 198,\n                \"y\": 73\n              },\n              {\n                \"x\": 198,\n                \"y\": 144\n              },\n              {\n                \"x\": 57,\n                \"y\": 144\n              }\n            ]\n          }\n        },\n        {\n          \"description\": \"AD-2\",\n          \"boundingPoly\": {\n            \"vertices\": [\n              {\n                \"x\": 58,\n                \"y\": 73\n              },\n              {\n                \"x\": 199,\n                \"y\": 73\n              },\n              {\n                \"x\": 199,\n                \"y\": 144\n              },\n              {\n                \"x\": 58,\n                \"y\": 144\n              }\n            ]\n          }\n        }\n      ]\n    }\n  ]\n}\n",
+        {
+            "responses": [
+                {
+                    "textAnnotations": [
+                        {
+                            "locale": "en",
+                            "description": "AD2",
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 57,
+                                        "y": 73
+                                    },
+                                    {
+                                        "x": 198,
+                                        "y": 73
+                                    },
+                                    {
+                                        "x": 198,
+                                        "y": 144
+                                    },
+                                    {
+                                        "x": 57,
+                                        "y": 144
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "description": "AD-2",
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 58,
+                                        "y": 73
+                                    },
+                                    {
+                                        "x": 199,
+                                        "y": 73
+                                    },
+                                    {
+                                        "x": 199,
+                                        "y": 144
+                                    },
+                                    {
+                                        "x": 58,
+                                        "y": 144
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        [
+            {
+                "textAnnotations": [
+                    {
+                        "locale": "en",
+                        "description": "AD2",
+                        "boundingPoly": {
+                            "vertices": [
+                                {
+                                    "x": 57,
+                                    "y": 73
+                                },
+                                {
+                                    "x": 198,
+                                    "y": 73
+                                },
+                                {
+                                    "x": 198,
+                                    "y": 144
+                                },
+                                {
+                                    "x": 57,
+                                    "y": 144
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "description": "AD-2",
+                        "boundingPoly": {
+                            "vertices": [
+                                {
+                                    "x": 58,
+                                    "y": 73
+                                },
+                                {
+                                    "x": 199,
+                                    "y": 73
+                                },
+                                {
+                                    "x": 199,
+                                    "y": 144
+                                },
+                                {
+                                    "x": 58,
+                                    "y": 144
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "AD-2\n",
+        "AD2",
+        "\/.*([A-Z]{2}[0-9]{3}[A-Z]{2}).*\/",
+        0
+    ],
+    "cacheDir": "..\/..\/cache\/",
+    "confDir": "..\/conf\/",
+    "cacheState": true,
+    "codeList": [
+        {
+            "service": "idGetValidation",
+            "msg": "",
+            "state": true,
+            "code": 1200
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "No car matching",
+            "state": 1400
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "Error input",
+            "state": 1500
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "No data input",
+            "state": 1502
+        },
+        {
+            "service": "imageGetText",
+            "msg": "Looks good!",
+            "state": 2200
+        },
+        {
+            "service": "imageGetText",
+            "msg": "Looks bad!",
+            "state": 2400
+        },
+        {
+            "service": "Nothing to read",
+            "msg": "Looks bad!",
+            "state": 2500
+        }
+    ],
+    "stateUpdateList": {
+        "1": "resultStateOn",
+        "0": "resultStateOff"
+    },
+    "cacheFile": "..\/..\/cache\/05a455f35da018203a7fb6327fd8b1cf.md5"
+}

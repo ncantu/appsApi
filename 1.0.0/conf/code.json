@@ -1,0 +1,50 @@
+[
+	{
+	 "service": "idGetValidation",
+	 "msg": "",
+     "state": true,
+     "code": 1200
+	},
+	{
+	 "service": "idGetValidation",
+	 "msg": "No car matching",
+     "state": false,
+     "code": 1400
+	},
+	{
+	 "service": "idGetValidation",
+	 "msg": "Error input",
+     "state": false,
+     "code": 1500
+	},
+	{
+	 "service": "idGetValidation",
+	 "msg": "No data input",
+     "state": false,
+     "code": 1502
+	},
+	{
+	 "service": "imageGetText",
+	 "msg": "Looks good!",
+     "state": true,
+     "code": 2200
+	},
+	{
+	 "service": "imageGetText",
+	 "msg": "Looks bad!",
+     "state": false,
+     "code": 2402
+	},
+    {
+     "service": "imageGetText",
+     "msg": "Nothing to scrap!",
+     "state": false,
+     "code": 2401
+    },
+	{
+	 "service": "Nothing to read",
+	 "msg": "Looks bad!",
+     "state": false,
+     "code": 2500	
+	}
+]

@@ -1,0 +1,76 @@
+{
+    "contentType": "Content-type:application\/json;charset=utf-8",
+    "resultStr": [],
+    "resultState": null,
+    "resultCode": null,
+    "resultMsg": null,
+    "plaque": null,
+    "log": [
+        "",
+        "{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Invalid value at 'requests[0].image.content' (TYPE_BYTES), Base64 decoding failed for \\\"sdfsdfsdf\\\"\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com\/google.rpc.BadRequest\",\n        \"fieldViolations\": [\n          {\n            \"field\": \"requests[0].image.content\",\n            \"description\": \"Invalid value at 'requests[0].image.content' (TYPE_BYTES), Base64 decoding failed for \\\"sdfsdfsdf\\\"\"\n          }\n        ]\n      }\n    ]\n  }\n}\n",
+        {
+            "error": {
+                "code": 400,
+                "message": "Invalid value at 'requests[0].image.content' (TYPE_BYTES), Base64 decoding failed for \"sdfsdfsdf\"",
+                "status": "INVALID_ARGUMENT",
+                "details": [
+                    {
+                        "@type": "type.googleapis.com\/google.rpc.BadRequest",
+                        "fieldViolations": [
+                            {
+                                "field": "requests[0].image.content",
+                                "description": "Invalid value at 'requests[0].image.content' (TYPE_BYTES), Base64 decoding failed for \"sdfsdfsdf\""
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "cacheFile": "..\/..\/cache\/73a90acaae2b1ccc0e969709665bc62f.md5",
+    "cacheDir": "..\/..\/cache\/",
+    "confDir": "..\/conf\/",
+    "cacheState": true,
+    "codeList": [
+        {
+            "service": "idGetValidation",
+            "msg": "",
+            "state": true,
+            "code": 1200
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "No car matching",
+            "state": 1400
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "Error input",
+            "state": 1500
+        },
+        {
+            "service": "idGetValidation",
+            "msg": "No data input",
+            "state": 1502
+        },
+        {
+            "service": "imageGetText",
+            "msg": "Looks good!",
+            "state": 2200
+        },
+        {
+            "service": "imageGetText",
+            "msg": "Looks bad!",
+            "state": 2400
+        },
+        {
+            "service": "Nothing to read",
+            "msg": "Looks bad!",
+            "state": 2500
+        }
+    ],
+    "stateUpdateList": {
+        "1": "resultStateOn",
+        "0": "resultStateOff"
+    }
+}
